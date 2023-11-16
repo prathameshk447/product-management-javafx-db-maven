@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller="projectlogin.ProjectLoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7d8c9a" height="781.0" layoutY="-5.0" stroke="BLACK" strokeType="INSIDE" width="698.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffc61f" height="781.0" layoutX="695.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="635.0" />
+      <Button fx:id="Login" layoutX="201.0" layoutY="557.0" mnemonicParsing="false" onAction="#projectlogin" prefHeight="50.0" prefWidth="402.0" style="-fx-background-color: #ffc61f;" text="Login">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <TextField fx:id="password" layoutX="201.0" layoutY="455.0" prefHeight="50.0" prefWidth="402.0" promptText="Password">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <TextField fx:id="username" layoutX="201.0" layoutY="348.0" prefHeight="50.0" prefWidth="402.0" promptText="UserName">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <ImageView fitHeight="166.0" fitWidth="328.0" layoutX="273.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./shopping.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="706.0" prefHeight="21.0" prefWidth="376.0" text="2023-2024 KpSyc.inc.All Rights Reserved" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Separator layoutX="200.0" layoutY="525.0" prefHeight="6.0" prefWidth="402.0" />
+      <Label layoutX="331.0" layoutY="274.0" prefHeight="53.0" prefWidth="124.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
